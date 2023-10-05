@@ -14,8 +14,6 @@ services:
     environment:
       - ENVIRON
 
-    entrypoint:
-
   db:
     build:
       context: "./"
